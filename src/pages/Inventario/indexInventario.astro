@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario360 - Technoandes Technologies</title>
+    <!-- Para que los estilos de Tailwind CSS funcionen, añadimos el script de la CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style is:global>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SECCIÓN OSCURA (Hero + Características) -->
+    <main class="bg-[#050a15] text-white">
+        <div class="max-w-6xl mx-auto px-6 py-16 md:py-24">
+
+            <!-- HERO DEL PRODUCTO -->
+            <section class="text-center mb-24">
+                <span class="text-blue-400 font-semibold">Inventario360</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold my-4 leading-tight tracking-tight">
+                    Control Total y Visibilidad de tu Inventario
+                </h1>
+                <p class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed">
+                    Desde el proveedor hasta el cliente final, Inventario360 te ofrece una plataforma centralizada para gestionar tu stock en tiempo real, reducir pérdidas y optimizar tus operaciones.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#" class="bg-[#1d4ed8] hover:bg-blue-800 text-white font-medium px-6 py-3 rounded-md transition-colors">
+                        Solicitar una Demo
+                    </a>
+                    <a href="#" class="bg-[#d97706] hover:bg-amber-700 text-white font-medium px-6 py-3 rounded-md transition-colors">
+                        Habla con un asesor
+                    </a>
+                </div>
+            </section>
+
+            <!-- CARACTERÍSTICAS PRINCIPALES -->
+            <section>
+                <h2 class="text-3xl font-bold mb-12 text-center">Una Herramienta, Múltiples Soluciones</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Característica 1: Monitoreo en Tiempo Real -->
+                    <div class="bg-[#0e1526] p-8 rounded-2xl border border-blue-900/50">
+                        <div class="text-blue-500 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h11"/><path d="M10 12h11"/><path d="M10 18h11"/><path d="M3 6h.01"/><path d="M3 12h.01"/><path d="M3 18h.01"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Monitoreo en Tiempo Real</h3>
+                        <p class="text-gray-400">Conoce el estado exacto de tu stock en todas tus bodegas y sucursales, 24/7. Sincronización automática con cada venta y compra.</p>
+                    </div>
+
+                    <!-- Característica 2: Alertas Inteligentes -->
+                    <div class="bg-[#0e1526] p-8 rounded-2xl border border-blue-900/50">
+                        <div class="text-blue-500 mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Alertas Inteligentes</h3>
+                        <p class="text-gray-400">Recibe notificaciones de stock bajo, fechas de vencimiento próximas y productos de baja rotación para tomar acciones preventivas.</p>
+                    </div>
+
+                    <!-- Característica 3: Reportes y Analítica -->
+                    <div class="bg-[#0e1526] p-8 rounded-2xl border border-blue-900/50">
+                        <div class="text-blue-500 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Reportes y Analítica</h3>
+                        <p class="text-gray-400">Genera informes sobre el valor de tu inventario, rotación de productos y tendencias de venta para tomar decisiones basadas en datos.</p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- SECCIÓN CLARA (Beneficios y Casos de Uso) -->
+    <section class="bg-white text-gray-900 py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            <!-- Columna Izquierda: Imagen/Mockup -->
+            <div class="bg-gray-100 p-8 rounded-2xl">
+                <img src="https://placehold.co/600x500/0e1526/ffffff" alt="Dashboard de Inventario360" class="rounded-lg shadow-xl">
+                 <!-- Nota: Reemplaza 'https://placehold.co/...' con una imagen real de tu producto -->
+            </div>
+
+            <!-- Columna Derecha: Texto de Beneficios -->
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Decisiones Inteligentes, Operaciones Eficientes</h2>
+                <p class="text-gray-600 mb-8 text-lg">Inventario360 no es solo un software, es el centro neurálgico de tu operación logística, diseñado para maximizar tu rentabilidad y productividad.</p>
+                
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <div class="mt-1 text-blue-600 shrink-0">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Reduce Pérdidas</h4>
+                            <p class="text-gray-600">Minimiza el exceso de stock, evita la obsolescencia y previene las roturas de stock que afectan tus ventas.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <div class="mt-1 text-blue-600 shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                         <div>
+                            <h4 class="font-semibold">Optimiza tus Compras</h4>
+                            <p class="text-gray-600">Identifica qué productos comprar y cuándo hacerlo basándote en pronósticos de demanda y niveles de inventario.</p>
+                        </div>
+                    </li>
+                     <li class="flex items-start gap-3">
+                        <div class="mt-1 text-blue-600 shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                        </div>
+                         <div>
+                            <h4 class="font-semibold">Aumenta la Productividad</h4>
+                            <p class="text-gray-600">Automatiza tareas manuales como el conteo de inventario y la generación de órdenes de compra, liberando a tu equipo.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SIMPLE -->
+     <footer class="bg-[#050a15] text-gray-400">
+        <div class="max-w-6xl mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Technoandes Technologies. Todos los derechos reservados.</p>
+            <a href="/" class="text-blue-500 hover:underline mt-2 inline-block">Volver al inicio</a>
+        </div>
+    </footer>
+
+</body>
+</html>
